@@ -2,7 +2,6 @@ var myData;
 d3.csv("trafficData/Traffic_Data.csv").then(function(data) {
     console.log(data[0]);
     myData = data;
-    
 })
 
 var dataset=[10,25,5,36,7];
